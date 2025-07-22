@@ -12,10 +12,6 @@ function throwIf(condition, messageType) {
   }
 }
 
-function isValidAccessKey(key) {
-  // Exemplo: começa com AKIA e tem 16 caracteres alfanuméricos
-  return /^AKIA[0-9A-Z]{12}$/.test(key);
-}
 
 function User({ id, name, email, phone, metadata, status }) {
   throwIf(!isValidEmail(email), 'INVALID_EMAIL');
