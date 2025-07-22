@@ -1,0 +1,16 @@
+{
+  "name": "ci-cd-iam-demo",
+  "version": "1.0.0",
+  "description": "Replica do serviço IAM da AWS - Node.js MSC TDD SOLID",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "jest": "^30.0.4"
+  }
+}
